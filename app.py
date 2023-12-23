@@ -6,6 +6,11 @@ app = Flask(__name__)
 def hello_CareerScoops():
     return render_template("home.html")
 
+@app.route("/post-matricS.html")
+def post_matric_scholarship():
+    return render_template("post-matricS.html")
+
+
 
 
 if __name__ == "__main__":
