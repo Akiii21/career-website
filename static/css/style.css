@@ -215,6 +215,7 @@ section .cards .card {
   margin-bottom: 40px;
   width: calc(100% / 3 - 30px);
   text-align: center;
+  cursor: pointer;
 }
 
 .career-path .cards .card {
@@ -230,16 +231,22 @@ section .cards .card {
 }
 
 .career-path .card img {
-  width: 100%;
-  padding-bottom: 10px;
-  /* Remove or adjust the object-fit property */
-  object-fit: contain; /* or object-fit: fill; depending on your preference */
-  border-radius: 7px;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  object-fit: cover;
 }
 
 .cards .card p {
   padding: 0 15px;
   margin-top: 5px;
+}
+section .cards :hover{
+  background:#303ef7;
+  color:#fff;
+  transform: scale(1.0);
+  
 }
 
 .about .row {
@@ -388,6 +395,7 @@ footer a {
   .contact .row .col:last-child {
     margin-top: 40px;
   }
+  
 
   footer a {
     height: 0;
