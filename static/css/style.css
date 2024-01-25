@@ -409,3 +409,71 @@ footer a {
     margin-bottom: 30px;
   }
 }
+
+
+
+
+
+
+
+
+/#assessment-container button:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+
+/* Add these styles to your existing CSS for the assessment container */
+#assessment-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#assessment-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  align-self: flex-end;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#assessment-title h2 {
+    color:#e0870b;
+    margin-bottom: 5px;
+}
+
+#assessment-title p {
+    font-size: 0.8em;
+    color: #555;
+}
+
+#assessment-container {
+    flex: 1;
+}
+
+
+p.question {
+  margin-bottom: 30px; /* Adjust the space below the question as needed */
+}
+

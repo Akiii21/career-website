@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Career Assessment-Career Scoop</title>
+  <link rel="icon" type="image/x-icon" href="/static/favicon.png">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+
+
+    <header>
+      <nav class="navbar">
+        <h2 class="logo"><a href="#home"><img src="static/favicon.png" alt="Career Scoop Logo" style="width: 50px; height: 50px;" >Career Scoop</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+          <ul class="all-links">
+              <li><a href="/">Home</a></li>
+              <li><a href="/#career-path">Career Path</a></li>
+              <li><a href="/#scholarships">Scholarships</a></li>
+              <li><a href="/Assessment.html">Assessment</a></li>
+              <li><a href="/#about">About Us</a></li>
+              <li><a href="/#contact">Contact Us</a></li>
+          </ul>
+
+      </nav>
+    </header>
+
+
+  <!-- home section  -->
+  <section class="homepage" id="home">
+    <div class="background-image">
+      <img src="/static/main.jpg" alt="Your Path to Success">
+    </div>
+      <div class="content">
+          <div class="text">
+              <h1>Embark on Your Journey of Self-Discovery</h1>
+              <p>Hello there! Ready to discover your ideal career path? These questions are designed to uncover your unique strengths and passions. Embrace the adventure, and let's find the career that aligns perfectly with who you are. Your journey begins now!</p>
+          </div>
+          <a href="/quiz.html">star quiz</a>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+    <div>
+      <span>Copyright © 2023 All Rights Reserved</span>
+      <span class="link">
+          <a href="/">Home</a>
+          <a href="/#contact">Contact</a>
+      </span>
+    </div>
+  </footer>
+
+
+
+  <!-- custom js file link -->
+  <script src="js/script.js"></script>
+
+  </body>
+  </html>
