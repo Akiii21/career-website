@@ -6,6 +6,9 @@
 
 Career Scoop is a **prototype** of website designed to assist students in exploring different career paths, finding scholarships, and assessing their skills to discover careers that align with their strengths and interests. The prototype aims to provide a user-friendly platform for students who are unsure about their future career choices, offering guidance and resources to help them make informed decisions.
 
+
+![Career Scoop Logo](static/Screenshot%202024-02-21%20195858.png)
+
 ## Key Features
 
 1. **Career Exploration**: Users can explore various career options through detailed profiles, including job descriptions, required skills, educational qualifications, salary information, and growth prospects.
